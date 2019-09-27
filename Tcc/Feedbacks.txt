@@ -1,0 +1,6 @@
+Delay de ataque, vc aperta J e tem um puta delay.
+Atque da slime são muito rápidas.
+Fonte usada para "tutorial", talves mudar ou deixar mais "entendivel"
+Adicionar que o espaço ou enter para confirmar as coisas 
+Deixar apenas teclado para selecionar as opções do jogo, ao clickar quebra.
+Corrigir menu pause, nenhuma opção selecionada.
