@@ -1,0 +1,88 @@
+-> todas as classes devem ter o construtor padrão e um construtor com todos os valores preenchidos.
+-> todas as classes devem ter getters & setters.
+
+1 - {
+	Concecionaria que contem carros os carros terão os atributos,
+	{
+		tipoDeRoda String;
+		modelo String
+		ano Integer
+		preco Double
+	}
+	
+	Terá cliente nessa conecionaria que terão os atributos 
+	{
+		nome String
+		cpf String
+		dinheiroNaCarteira Double
+		carro Carro -> Null
+	}
+	
+	E também terá funcionario que terão os atributos 
+	{
+		id Long
+		nome String
+		comissao Double -> 0
+		salario Double  
+		qtdVendas Integer -> 0
+	}
+	
+	Seu desafio é criar essas classes e após isso você deverá 
+-> Criar um objeto do tipo carro
+-> Crie um objeto do tipo Cliente com o valor null no atributo carro 
+-> Criar um objeto do tipo Funcionario.
+
+}
+
+
+2 - {
+	Seu desafio é mostrar no console todos os valores que existem nesses 3 objetos criados (carro, cliente e funcionario).
+	Dica: Pesquisar sobre toString.
+}
+
+3 - {
+Seu desafio será criar a classe Gerente, essa classe é uma classe filho de funcionario, ou seja, ela "exteds" a classe funcionario que terá os atributos
+
+	{
+	
+		String Loja; 
+		Funcionario funcionario;
+
+	}
+}
+
+4 - Seu desafio é criar um cosntrutor de copia para cada classe já criada.
+
+6 - Seu desafio é criar um metodo na classe Cliente que se chamará "alugarCarro" esse metodo deve receber como parametro o carro que o Cliente quer alugar.
+-> E devera atribuir esse carro para o Cliente.
+
+-> Agora vá na sua classe main e com seu objeto cliente já cirado dos desafios anteriores chame o metodo "alugarCarro", passando como parametro o objeto carro
+	criado anteriormente.
+-> Após isso você deverá mostrar no console os valores que existem no seu objeto Cliente.
+
+7 - Seu desafio é criar um metodo na classe Cliente que se chamará "devolverCarro" esse metodo deve atribuir o valor null para o atributo Carro do Cliente.
+-> O metodo devera retornar a mensagem "Carro devolvido com sucesso."
+-> Agora vá na sua classe main e com seu objeto cliente já cirado dos desafios anteriores chame o metodo "devolverCarro".
+-> A mensagem deve ser exibida no console além dos valores que existem no seu objeto Cliente.
+
+8 - Seu desafio será aprimorar o seu metodo "alugarCarroAprimorado", agora esse metodo deverá receber como parametro além do carro que 
+o cliente deseja alugar o funcionario que fez esse aluguel.
+-> Ele continuará atribuindo o carro alugado para o cleinte.
+-> E terá que adicionar ao atributo "comissao" desse funcionario o valor de 20% do valor do carro.
+-> O metodo agora devera retornar a mensagem "Carro alugado com sucesso".
+-> Agora vá na sua classe main e com seu objeto cliente já cirado dos desafios anteriores chame o metodo "alugarCarroAprimorado".
+-> A mensagem deve ser exibida no console além dos valores que existem no seu objeto Cliente e no seu objeto funcionario.
+
+9- {
+	Seu desafio é criar um metodo na classe cliente que se chamará "comprarCarro" esse metodo deve receber como parametro o carro que o cliente deseja 
+comprar e o funcionario que vendeu esse carro.
+
+-> O metodo deverá descontar o valor do carro do dinheiro na carteira do cliente.
+-> Atribuir o carro comprado para o cliente.
+-> Aumentar a quantidade de vendas do funcionario que vendeu esse carro para o cliente
+-> E esse metodo devera retornar a mensagem "Carro comprado com sucesso".
+-> Agora vá na sua classe main e com seu objeto cliente já cirado dos desafios anteriores chame o metodo "comprarCarro".
+-> A mensagem deve ser exibida no console além dos valores que existem no seu objeto Cliente, no seu objeto Funcionario e no objeto Carro.
+
+Obs: tome cuidado com valores negativos ou insuficientes para realizar a compra.
+}
