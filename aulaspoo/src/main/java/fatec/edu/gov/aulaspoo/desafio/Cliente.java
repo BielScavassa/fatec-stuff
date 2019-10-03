@@ -43,9 +43,9 @@ public class Cliente {
 	}
 
 	public String comprarCarro(Carro carro, Funcionario funcionario) {
-		setCarteira(this.carteira - carro.getPreco());
-		setCarro(carro);
-		funcionario.setQtdVendas(+1);
+		this.carteira = this.carteira - carro.getPreco();
+		this.carro = new Carro(carro);
+		funcionario.setQtdVendas(funcionario.getQtdVendas() +1);
 		return "Carro comprado com sucesso";
 	}
 
