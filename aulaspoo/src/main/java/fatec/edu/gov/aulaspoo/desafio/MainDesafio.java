@@ -1,10 +1,6 @@
-package fatec.edu.gov.aulaspoo;
+package fatec.edu.gov.aulaspoo.desafio;
 
-import fatec.edu.gov.aulaspoo.desafio.Carro;
-import fatec.edu.gov.aulaspoo.desafio.Cliente;
-import fatec.edu.gov.aulaspoo.desafio.Funcionario;
-
-public class Main {
+public class MainDesafio {
 	public static void main(String[] args) {
 
 		//Prestar atenção nos valores atribuidos aos objetos para nao passar valore negativos
