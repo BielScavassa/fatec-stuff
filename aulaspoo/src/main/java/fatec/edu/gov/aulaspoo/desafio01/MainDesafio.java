@@ -1,4 +1,4 @@
-package fatec.edu.gov.aulaspoo.desafio;
+package fatec.edu.gov.aulaspoo.desafio01;
 
 public class MainDesafio {
 	public static void main(String[] args) {
