@@ -2,7 +2,7 @@ package fatec.edu.gov.aulaspoo.p2;
 
 import java.util.ArrayList;
 
-public class Main {
+public class MainP2 {
 
 	public static void main(String[] args) {
 		Turmas turma01 = new Turmas("Jogos Digitais", 55, new ArrayList<Aluno>());

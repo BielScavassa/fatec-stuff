@@ -7,8 +7,8 @@ public class MainEstacionamento {
 	public static void main(String[] args) {
 
 		//Constroi carros
-		Carro gol = new CarroConsignado("DKA-2037", 2002, "Bola", "Gabriel", 13550.00);
-		Carro uno = new CarroProprio("EWT-5963", 2012, "New Uno", 8000.00, LocalDateTime.of(2019, 10, 07, 15, 30));
+		CarroConsignado gol = new CarroConsignado("DKA-2037", 2002, "Bola", "Gabriel", 13550.00);
+		CarroProprio uno = new CarroProprio("EWT-5963", 2012, "New Uno", 8000.00, LocalDateTime.of(2019, 10, 07, 15, 30));
 		
 		//Mostra resultado do metodo disponivel
 		System.out.println("Disponivel: " + gol.disponivel());
