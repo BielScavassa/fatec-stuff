@@ -13,6 +13,7 @@ public abstract class Carro {
 		this.anoDeFabricacao = anoDeFabricacao;
 		this.modelo = modelo;
 		this.disponivel = true;
+		this.nomeVendedor = "";
 	}
 
 	public Boolean disponivel() {
@@ -79,11 +80,6 @@ public abstract class Carro {
 	public String toString() {
 		return "Carro [placa=" + placa + ", anoDeFabricacao=" + anoDeFabricacao + ", modelo=" + modelo + ", disponivel="
 				+ disponivel + ", nomeVendedor=" + nomeVendedor + "]";
-	}
-
-	public Boolean oferta() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 }
