@@ -17,9 +17,11 @@ public abstract class Funcionario {
 
 	public abstract Double salarioLiquido();
 
-	public abstract void hollerith();
-
 	public abstract void novoMes();
+
+	public void hollerith() {
+		System.out.printf("nome=" + nome + ", rg=" + rg + ", salarioBase= " + salarioBase, " salario liquido" + salarioLiquido());	
+	}
 
 	public String getNome() {
 		return nome;
@@ -43,11 +45,6 @@ public abstract class Funcionario {
 
 	public void setSalarioBase(Double salarioBase) {
 		this.salarioBase = salarioBase;
-	}
-
-	@Override
-	public String toString() {
-		return "Funcionario [nome=" + nome + ", rg=" + rg + ", salarioBase=" + salarioBase + "]";
 	}
 
 }

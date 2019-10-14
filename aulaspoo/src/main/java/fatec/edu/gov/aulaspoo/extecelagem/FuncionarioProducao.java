@@ -25,9 +25,9 @@ public class FuncionarioProducao extends Funcionario {
 
 	@Override
 	public void hollerith() {
-		System.out.println("FuncionarioAdministrativo [horasDiurnas= " + horasDiurnas + ", horasNoturnas= "
-				+ horasNoturnas + " nome= " + super.getNome() + ", rg= " + super.getRg() + ", salarioBase= "
-				+ super.getSalarioBase() + ", salarioLiquido= " + salarioLiquido() + "]" + "\n");
+		System.out.println("Funcionario Producao: ");
+		super.hollerith();
+		System.out.println(" horasDiurnas= " + horasDiurnas + " horasNoturnas= " + horasNoturnas + "\n");
 	}
 
 	@Override
@@ -37,11 +37,11 @@ public class FuncionarioProducao extends Funcionario {
 	}
 
 	public void registrarHorasDiurnas(Integer horasTrabalhadas) {
-		this.horasDiurnas = this.horasDiurnas + horasTrabalhadas;
+		this.horasDiurnas += horasTrabalhadas;
 	}
 
 	public void registrarHorasNoturnas(Integer horasTrabalhadas) {
-		this.horasNoturnas = this.horasNoturnas + horasTrabalhadas;
+		this.horasNoturnas += horasTrabalhadas;
 	}
 
 	public Integer getHorasDiurnas() {

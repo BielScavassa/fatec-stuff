@@ -19,9 +19,9 @@ public class FuncionarioVendedor extends Funcionario {
 
 	@Override
 	public void hollerith() {
-		System.out.println("FuncionarioAdministrativo [vendasNoMes= " + vendasNoMes + " nome= " + super.getNome()
-				+ ", rg= " + super.getRg() + ", salarioBase= " + super.getSalarioBase() + ", salarioLiquido= "
-				+ salarioLiquido() + "]" + "\n");
+		System.out.println("Funcionario Vendedor: ");
+		super.hollerith();
+		System.out.println(" vendasNoMes= " + vendasNoMes + "\n");
 	}
 
 	@Override

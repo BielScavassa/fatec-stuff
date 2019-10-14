@@ -20,9 +20,9 @@ public class FuncionarioAdministrativo extends Funcionario {
 
 	@Override
 	public void hollerith() {
-		System.out.println("FuncionarioAdministrativo [numeroFaltas= " + numeroFaltas + " nome= " + super.getNome()
-				+ ", rg= " + super.getRg() + ", salarioBase= " + super.getSalarioBase() + ", salarioLiquido= "
-				+ salarioLiquido() + "]" + "\n");
+		System.out.println("Funcionario Administrativo: ");
+		super.hollerith();
+		System.out.println(" numeroFaltas= " + salarioLiquido() + "\n");
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public class FuncionarioAdministrativo extends Funcionario {
 	}
 
 	public void registartFalta() {
-		this.numeroFaltas = this.numeroFaltas + 1;
+		this.numeroFaltas ++;
 	}
 
 	public Double getNumeroFaltas() {

@@ -68,7 +68,7 @@ Seu desafio será criar a classe Gerente, essa classe é uma classe filho de funci
 8 - Seu desafio será aprimorar o seu metodo "alugarCarroAprimorado", agora esse metodo deverá receber como parametro além do carro que 
 o cliente deseja alugar o funcionario que fez esse aluguel.
 -> Ele continuará atribuindo o carro alugado para o cleinte.
--> E terá que adicionar ao atributo "comissao" desse funcionario o valor de 20% do valor do carro.
+-> E terá que adicionar ao atributo "comissao" desse funcionario o valor de 5% do valor do carro.
 -> O metodo agora devera retornar a mensagem "Carro alugado com sucesso".
 -> Agora vá na sua classe main e com seu objeto cliente já cirado dos desafios anteriores chame o metodo "alugarCarroAprimorado".
 -> A mensagem deve ser exibida no console além dos valores que existem no seu objeto Cliente e no seu objeto funcionario.

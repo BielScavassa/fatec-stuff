@@ -5,9 +5,9 @@ public class MainTecelagem {
 	public static void main(String[] args) {
 		
 		//Cria funcionarios
-		FuncionarioAdministrativo funcionarioAdm = new FuncionarioAdministrativo("Julio", "75.123.785.-8", 1500.00);
-		FuncionarioProducao funcionarioProd = new FuncionarioProducao("Sergio", "25.143.755.-6", 30.00);
-		FuncionarioVendedor funcionarioVend = new FuncionarioVendedor("Amanada", "44.122.711.-9", 850.00);
+		FuncionarioAdministrativo funcionarioAdm = new FuncionarioAdministrativo("Julio", "75.123.785-8", 1500.00);
+		FuncionarioProducao funcionarioProd = new FuncionarioProducao("Sergio", "25.143.755-6", 30.00);
+		FuncionarioVendedor funcionarioVend = new FuncionarioVendedor("Amanada", "44.122.711-9", 850.00);
 		
 		//Funcionario Administrativo
 		funcionarioAdm.registartFalta();
