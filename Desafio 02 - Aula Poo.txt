@@ -1,0 +1,20 @@
+Todas as classes devem ter construtores, getters e setters
+
+1 -> Crie uma interface interface "GameStyle" que tenha os metodos Integer findId()", "Integer idadeMediaParaJogar()" e print();
+	findId: Retorna Id do jogo;
+	IdadeMediaParaJogar: idade media para poder jogar o jogo.
+	Print: printa todos os atributos da classe.
+2 -> Crie uma classe "Tatics" que implementa a interface "GameStyle", essa classe deverá conter os seguintes parametros:
+	Long id, String nome, Integer idadeMinima, Integer Idade Maxima.
+3 -> Crie uma outra classe "Fps" que implementa a interface "GameStyle", essa classe deverá conter os seguintes parametros:
+	Long id, String nome, Integer idadeMinima, Integer Idade Maxima.
+4 -> Vá no main crie objetos do tipo GameStyle um sendo Tatics e o outro sendo Fps.
+5 -> Crie uma classe chamada "ListaDeGames" essa classe deverá conter os seguintes atributos e metodos:
+	Atributos: Array de GameStyle lista e Integer contador
+	Metodos: Void add(GameStyle game) "Adiciona o game na lista", void print(); "Printa todos os itens na lista".
+6 -> Vá até o main crie um objeto da classe "ListaDeGames" e popule ela com os objetos "GameStyle" ja criados anteriormente.
+7 -> Volte na classe "ListaDeGames" e crie o metodo:
+	GameStyle find(Long gameID) "Esse metodo devera retornar o item caso ele exista na lista, caso não exista ele devera lançar uma exception jogo nao cadastrado".
+8 -> Adicione uma exceptions no metodo add:
+	Exception caso a lista já esteja cheia.
+9 -> Vá até o main e faça acontecer essas 2 exceptions exceptions.
